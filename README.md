@@ -3,6 +3,7 @@
 This is a design of a non-volatile backup memory board for the PC-FX. It's based on the
 FX-BMP, but doesn't need batteries, and allows for several different sizes.
 
+![FX-nvBMP cartridge](images/nvBMP.jpg)
 
 ## Design
 
@@ -26,6 +27,8 @@ passive components except the capactiors next to the MRAM chip; I sheared the st
 above the MRAM chip, and used the stencil to apply solder paste for just the MRAM chip and
 2 capacitors, using a hotplate to heat the boards after mounting the missing parts.
 
+![empty_MRAM_variant](images/before_after.jpg)
+
 The MRAM part in use is MR0A08BCYS35 (TSOP2-44 package), but you could substitute any
 other MR0A08... chip which uses the TSOP2-44 package (the 'Y' indicates this).
 Additionally, MR2A08... (512KB) or MR4A08... (2MB) chips in the same line will also be
@@ -36,6 +39,7 @@ compatible as long as they also use the TSOP2-44 package.
 
 You can also find the design for a case/enclosure, courtesy of Jeff Chen (Twitter: @jeffqchen).
 This is suitable for any 3D printer; I particularly liked the resin prints I ordered online.
+The case is designed to accept M2-12 socket-head screws and nuts.
 
 
 ## Circuit Design Concepts
